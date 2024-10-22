@@ -1,0 +1,134 @@
+:root{
+    --text: #030302;
+    --background: #FAF7F5;
+    --secondary: #D9C4B0;
+    --primary: #EDE3D9;
+    --accent: #A97B51;
+}
+body{
+    background-color: var(--background);
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI Black', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin-top: 25px;
+    text-align: center;
+}
+#video{
+    border: 2px solid var(--text);
+    width: 480px;
+    height: 270px;
+    border-radius: 7px;
+}
+.btn2{
+    background: none;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: 0.3s;
+    color: var(--text);
+    text-decoration: none;
+}
+.btn2::before{
+    width: 100%;
+    height: 100%;
+    color: var(--text);
+    background-color: var(--background);
+    transition: 0.3s;
+}
+.btn{
+    border: 2px solid var(--text);
+    background: none;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: 0.3s;
+    color: var(--text);
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn::before{
+    width: 100%;
+    height: 100%;
+    color: var(--text);
+    background-color: var(--background);
+    transition: 0.3s;
+}
+.btn1:hover{
+    background-color: var(--secondary);
+    color: var(--text);
+}
+#Total{
+    width: 1024px;
+    height: 768px;
+    margin: auto;
+    background-color: transparent;
+}
+#header{
+    background-image: url(imagens/header.png);
+    background-repeat: no-repeat;
+    width: 940px;
+    height: 120px;
+    margin: 15px;
+    border-radius: 10px;
+}
+#Caixa{
+    position: relative;
+    width: 994px;
+    height: 478px;
+    margin: 15px;
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+#sidebar{
+    float: left;
+    width: 269px;
+    height: 448px;
+    margin: 15px;
+    background-color: var(--secondary);
+    border-radius: 10px;
+}
+#content{
+    float: left;
+    width: 665PX;
+    height: 448px;
+    margin: 15px;
+    color: var(--text);
+    background-color: var(--secondary);
+    border-radius: 10px;
+}
+#rodape{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 994px;
+    height: 120px;
+    margin: 15px;
+    color: var(--text);
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+#sidebar2{
+    width: 269px;
+    height: 90px;
+    margin: 15px;
+    background-color: var(--secondary);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+#content2{
+    width: 665PX;
+    height: 90px;
+    margin: 15px;
+    color: var(--text);
+    background-color: var(--secondary);
+    border-radius: 10px;
+}
+#footertext{
+    display: flex;
+    align-items: center;
+    float: right;
+    font-size: 20px;
+    padding: 30px 20px;
+}
